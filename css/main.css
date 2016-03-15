@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.credits {
+    color: gray;
+    font-style: italic;
+    font-size: .9em;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 12% 0%;
+    background-image: url("../images/solar_system.png");
+    background-size: 100% 100%;
+    line-height: 150%;
+}
+
+header h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+}
+
+header h3 {
+    font-size: 2em;
+}
+ header p {
+    float: right;
+     position: relative;
+     right: 7%;
+     margin-top: 9%;
+ }
+
+ /* End of Header section */
+
+/* Article section */
+.scrollBtn {
+    color: gray;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    right: 1%;
+    display: none;
+}
+
+article {
+    margin-top: 5%;
+}
+
+.animation-element {
+    position: relative;
+}
+
+section {
+    display: block;
+    overflow: auto;
+    width: 95%;
+    margin: auto;
+    margin-right: 7%;
+}
+
+section h3 {
+    font-size: 1.8em;
+}
+
+section section {
+    width: 40%;
+    margin-top: 4%;
+}
+
+p:not(.credits) {
+    font-size: 1.1em;
+    line-height: 1.7em;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+img {
+    max-height: 500px;
+    max-width: 500px;
+}
+
+section .credits {
+    margin: 2px 0px;
+}
+
+.credits a {
+    text-decoration: none;
+    color: gray;
+}
+
+.credits a:hover {
+    text-decoration: underline;
+}
+
+/* Footer section */
+footer p {
+    text-align: center;
+    color: gray;
+    padding: 15px 0px;
+    font-size: 1.3em;
+    margin-bottom: 0px;
+    margin-top: 35px
+}
+/* End of Footer section */
+
+
+/* Media query strictly for the scroll button */
+@media screen and (max-width: 525px) {
+    .scrollBtn {
+        width: 35px;
+        height: 30px;
+    }
+
+    .scrollBtn img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width: 526px) and (max-width: 1300px) {
+    .scrollBtn {
+        width: 50px;
+        height: 30px;
+        text-align: center;
+    }
+
+    .scrollBtn img {
+        width: 50px;
+        height: 55px;
+    }
+}

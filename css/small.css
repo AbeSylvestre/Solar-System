@@ -1,0 +1,45 @@
+/* Header section */
+header {
+    line-height: .85;
+}
+
+header h3 {
+    font-size: 1.5em;
+    margin: 15px auto;
+}
+
+header h1 {
+    font-size: 4em;
+    letter-spacing: 3px;
+    margin: 10px auto;
+}
+
+header .credits {
+    font-size: .6em;
+}
+
+/* End of Header section */
+
+/* Article section */
+article {
+    text-align: center;
+}
+
+figure {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.left, .right {
+    float: none;
+}
+
+img {
+    max-height: 200px;
+    max-width: 220px;
+}
+
+section section {
+    width: 70%;
+    margin-top: 1%;
+}
