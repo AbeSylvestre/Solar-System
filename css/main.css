@@ -105,6 +105,10 @@ section .credits {
 }
 
 /* Footer section */
+footer {
+    background-color: rgb(24, 24, 24);
+}
+
 footer p {
     text-align: center;
     color: gray;
@@ -112,6 +116,10 @@ footer p {
     font-size: 1.3em;
     margin-bottom: 0px;
     margin-top: 35px
+}
+
+footer a {
+    text-decoration: none;
 }
 /* End of Footer section */
 
