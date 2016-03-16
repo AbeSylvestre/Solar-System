@@ -37,6 +37,25 @@ header h3 {
  /* End of Header section */
 
 /* Article section */
+<<<<<<< HEAD
+=======
+.scrollBtn {
+    color: gray;
+    text-decoration: none;
+    max-width: 100px;
+    max-height: 100px;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+    display: none;
+}
+
+.scrollBtn img {
+    max-width: 75px;
+    max-height: 75px;
+}
+
+>>>>>>> origin/master
 article {
     margin-top: 5%;
 }
@@ -50,10 +69,13 @@ section {
     overflow: auto;
     width: 95%;
     margin: auto;
+<<<<<<< HEAD
 }
 
 .pluto {
     margin: 4% auto;
+=======
+>>>>>>> origin/master
 }
 
 section h3 {
@@ -120,7 +142,29 @@ footer a, footer a:visited {
 }
 /* End of Footer section */
 
+<<<<<<< HEAD
 @media screen and (min-width: 526px) {
+=======
+
+/* Media query strictly for the scroll button */
+@media screen and (max-width: 525px) {
+    .scrollBtn {
+        width: 35px;
+        height: 30px;
+    }
+
+    .scrollBtn img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .scrollBtn:after {
+        content: "Back to Top";
+    }
+}
+
+@media screen and (min-width: 526px) and (max-width: 1300px) {
+>>>>>>> origin/master
     .scrollBtn {
         color: gray;
         text-decoration: none;
