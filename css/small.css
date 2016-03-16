@@ -39,6 +39,10 @@ img {
     max-width: 220px;
 }
 
+.saturn img {
+    padding-top: 0%;
+}
+
 section section {
     width: 70%;
     margin-top: 1%;
