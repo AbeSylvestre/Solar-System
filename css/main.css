@@ -37,17 +37,6 @@ header h3 {
  /* End of Header section */
 
 /* Article section */
-.scrollBtn {
-    color: gray;
-    text-decoration: none;
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    top: 50%;
-    right: 1%;
-    display: none;
-}
-
 article {
     margin-top: 5%;
 }
@@ -61,7 +50,10 @@ section {
     overflow: auto;
     width: 95%;
     margin: auto;
-    margin-right: 7%;
+}
+
+.pluto {
+    margin: 4% auto;
 }
 
 section h3 {
@@ -91,11 +83,15 @@ img {
     max-width: 500px;
 }
 
+.saturn img {
+    padding-top: 10%;
+}
+
 section .credits {
     margin: 2px 0px;
 }
 
-.credits a {
+.credits a, .credits a:visited {
     text-decoration: none;
     color: gray;
 }
@@ -118,34 +114,26 @@ footer p {
     margin-top: 35px
 }
 
-footer a {
+footer a, footer a:visited {
     text-decoration: none;
+    color: #551A8B;
 }
 /* End of Footer section */
 
-
-/* Media query strictly for the scroll button */
-@media screen and (max-width: 525px) {
+@media screen and (min-width: 526px) {
     .scrollBtn {
-        width: 35px;
-        height: 30px;
+        color: gray;
+        text-decoration: none;
+        max-width: 100px;
+        max-height: 100px;
+        position: fixed;
+        bottom: 0%;
+        right: 1%;
+        display: none;
     }
 
     .scrollBtn img {
-        width: 20px;
-        height: 20px;
-    }
-}
-
-@media screen and (min-width: 526px) and (max-width: 1300px) {
-    .scrollBtn {
-        width: 50px;
-        height: 30px;
-        text-align: center;
-    }
-
-    .scrollBtn img {
-        width: 50px;
-        height: 55px;
+        max-width: 60px;
+        max-height: 60px;
     }
 }
