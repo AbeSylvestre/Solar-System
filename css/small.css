@@ -25,6 +25,10 @@ article {
     text-align: center;
 }
 
+.scrollBtn {
+    display: none;
+}
+
 figure {
     margin-top: 15px;
     margin-bottom: 5px;
@@ -37,6 +41,10 @@ figure {
 img {
     max-height: 200px;
     max-width: 220px;
+}
+
+.saturn img {
+    padding-top: 0%;
 }
 
 section section {
